@@ -522,7 +522,7 @@ nav ul .cta small {
 .about .spotify img {
   width: 25rem;
   border-radius: 2rem;
-  box-shadow: none;
+  box-shadow: 8px 12px 8px black;
 }
 
 .about .spotify a {
