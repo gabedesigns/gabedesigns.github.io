@@ -205,7 +205,7 @@ input:checked + .slider:before {
 }
 .timeline .timeline-content h2 {
   font-size: 1.25rem;
-  font-family: "Overpass";
+  font-family: "Assistant";
   margin: 0;
 }
 .timeline .accent {
@@ -271,6 +271,10 @@ input:checked + .slider:before {
 }
 .timeline .end .timeline-line:after {
   display: none;
+}
+
+.timeline .timeline-item h1 {
+  font-size: 1.7rem;
 }
 
 .brand-icons a {
@@ -512,10 +516,10 @@ nav ul .cta small {
 .about h1 {
   font-family: "Overpass";
   font-weight: 400;
-  padding: 2rem 1.5rem;
+  /* padding: 2rem 1.5rem; */
   border-radius: 2rem 0rem;
   box-shadow: 4.5px 6.75px 4.5px rgba(0, 0, 0, 0.25);
-  display: inline-block;
+  /* display: inline-block; */
 }
 .about .spotify {
   text-align: center;
