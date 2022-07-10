@@ -116,6 +116,10 @@ input:checked + .slider:before {
   align-items: center;
 }
 
+.typing-container p {
+  font-size: 20px
+}
+
 .typing-container h1 {
   /* padding: 0.5rem; */
   font-weight: bold;
@@ -444,6 +448,7 @@ nav ul .cta small {
 }
 .home .home-info {
   text-align: center;
+  font-size: 15px;
 }
 .home .home-info img {
   width: 20rem;
