@@ -544,6 +544,10 @@ nav ul .cta small {
   display: block;
 }
 
+.about-me .author-quote {
+  font-size: 10px;
+}
+
 .about-me .content {
   text-align: center;
 }
@@ -564,6 +568,15 @@ nav ul .cta small {
 
 .about-me .quote p {
   font-size: 1.5625rem;
+}
+
+.spotify-listen h1{
+  box-shadow: none;
+  font-size: 3rem;
+}
+
+.spotify-listen i{
+  color: #1DB954;
 }
 
 .experiences h1 {
@@ -588,7 +601,7 @@ nav ul .cta small {
   .home .home-case-studies {
     height: 100%;
     width: 70%;
-    overflow-x: scroll;
+    /* overflow-x: scroll; */
     flex-direction: row;
     padding-bottom: 0;
   }

@@ -8,9 +8,9 @@ var switchStatus;
 const typedTextSpan = $(".typed-text");
 const cursorSpan = $(".cursor");
 
-const textArray = ["an empathetic", "a collaborative", "a seasoned", "a flexible", "a consistent"];
-const typingDelay = 100;
-const erasingDelay = 100;
+const textArray = ["an empathetic", "a collaborative", "a thoughtful", "a flexible", "a consistent"];
+const typingDelay = 75;
+const erasingDelay = 50;
 const newTextDelay = 1000; // Delay between current and next text
 let textArrayIndex = 0;
 let charIndex = 0;
