@@ -523,25 +523,16 @@ nav ul .cta small {
 }
 .about .spotify {
   text-align: center;
-  padding-bottom: 5rem;
-  position: relative;
+  /* padding-bottom: 5rem;
+  padding-top: 5; */
+  /* position: relative; */
   display: inline-block;
-}
-
-.about .spotify img {
-  width: 25rem;
-  border-radius: 2rem;
-  box-shadow: 8px 12px 8px black;
 }
 
 .about .spotify a {
   font-family: "Overpass";
-  font-weight: bold;
   padding: 1rem 1rem;
   border-radius: 1rem 0rem;
-  position: absolute;
-  top: 10%;
-  right: 8%;
 }
 
 .about-me {
@@ -598,6 +589,11 @@ nav ul .cta small {
   border-radius: 1.1rem;
   display: inline-block;
 }
+
+/* .technical-skills p{
+  font-size: 3.0517578125rem;
+  font-family: "Assistant";
+} */
 
 @media screen and (min-width: 768px) {
   .home {
@@ -733,7 +729,7 @@ nav ul .cta small {
 
   .intro-home p {
     text-align: start;
-    font-size: 2rem;
+    font-size: 1.7rem;
   }
   .intro-home h1 {
     text-align: start;
@@ -762,3 +758,4 @@ nav ul .cta small {
     display: none;
   }
 }/*# sourceMappingURL=main.css.map */
+
