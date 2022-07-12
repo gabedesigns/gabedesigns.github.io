@@ -448,24 +448,30 @@ nav ul .cta small {
   margin-top: 5vh;
   display: flex;
   flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
   gap: 4rem;
 }
 .home .home-info {
   text-align: center;
-  font-size: 15px;
+  font-size: 1.2rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
 }
 .home .home-info img {
-  width: 20rem;
-  height: 20rem;
+  width: 17rem;
+  height: 17rem;
   -o-object-fit: cover;
   object-fit: cover;
   border-radius: 50%;
   box-shadow: 8px 12px 8px rgba(0, 0, 0, 0.25);
 }
+
 .home .home-info h1 {
   font-size: 1.953125rem;
   margin: 2rem 0 0 0;
 }
+
 .home .home-info h2 {
   margin: 0;
   font-style: italic;
@@ -475,6 +481,8 @@ nav ul .cta small {
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
   gap: 2.5rem;
   padding-bottom: 10rem;
 }
@@ -506,6 +514,8 @@ nav ul .cta small {
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
   gap: 3rem;
 }
 .about img {
@@ -545,7 +555,7 @@ nav ul .cta small {
 }
 
 .about-me .author-quote {
-  font-size: 10px;
+  font-size: 15px;
 }
 
 .about-me .content {
@@ -573,6 +583,8 @@ nav ul .cta small {
 .spotify-listen h1{
   box-shadow: none;
   font-size: 3rem;
+  margin: 0;
+  padding-bottom: 1rem;
 }
 
 .spotify-listen i{
@@ -580,7 +592,7 @@ nav ul .cta small {
 }
 
 .experiences h1 {
-  font-size: 3.0517578125rem;
+  font-size: 2.6rem;
   font-family: "Assistant";
   background-color: #4B4B4B;
   color: #F2F2F2;
@@ -590,10 +602,15 @@ nav ul .cta small {
   display: inline-block;
 }
 
-/* .technical-skills p{
-  font-size: 3.0517578125rem;
-  font-family: "Assistant";
-} */
+.about .spotify {
+  width: none;
+}
+
+.about .about-me h2 {
+  font-size: 2.5rem;
+  font-weight: 500;
+  margin: 0;
+}
 
 @media screen and (min-width: 768px) {
   .home {
@@ -601,17 +618,19 @@ nav ul .cta small {
     flex-direction: row;
   }
   .home .home-info {
-    flex-basis: 30%;
+    max-width: 45rem;
   }
   .home .home-case-studies {
     height: 100%;
-    width: 70%;
+
     /* overflow-x: scroll; */
     flex-direction: row;
     padding-bottom: 0;
   }
   .home .home-case-studies img {
     width: 30rem;
+    /* CHUCK Edit */
+    max-width: 500px;
     margin-bottom: 2rem;
     box-shadow: 8px 12px 8px black;
   }
@@ -620,7 +639,7 @@ nav ul .cta small {
     margin: 0rem 3rem;
     flex-direction: row;
     gap: 3rem;
-    align-items: flex-start;
+    align-items: center;
   }
   .about img {
     width: 30rem;
@@ -639,7 +658,7 @@ nav ul .cta small {
     text-align: start;
   }
   .about .about-me h2 {
-    font-size: 3.0517578125rem;
+    font-size: 3.5rem;
     display: inline-block;
     font-weight: 400;
     margin: 0;
@@ -650,8 +669,7 @@ nav ul .cta small {
   .about .spotify {
     flex: none;
     width: auto;
-    padding-bottom: 0;
-    padding-right: 5rem;
+    width: 45rem;
   }
   .about .spotify img {
     width: 32.62rem;
@@ -677,6 +695,27 @@ nav ul .cta small {
 
   .logo object {
     width: 100%;
+  }
+
+  .about-me .experiences {
+    width: 45rem;
+  }
+
+  .home .home-info h1 {
+    font-size: 2.6rem;
+    font-weight: 600;
+  }
+
+  .home .home-info h2 {
+    font-size: 1.6rem;
+  }
+  
+  .home .home-info p {
+    font-size: 1.3rem;
+  }
+  .home .home-info img {
+    width: 20rem;
+    height: 20rem;
   }
 }
 @media screen and (min-width: 992px) {
@@ -758,4 +797,3 @@ nav ul .cta small {
     display: none;
   }
 }/*# sourceMappingURL=main.css.map */
-
