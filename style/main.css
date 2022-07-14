@@ -281,6 +281,10 @@ input:checked + .slider:before {
   padding: 0.3rem;
 }
 
+.spotify-cta {
+  background-color: #1DB954;
+  color: #F2F2F2;
+}
 
 small {
   font-size: 8px;
