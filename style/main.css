@@ -5,7 +5,7 @@
   --secondary-light-gray: #C2C2C2;
   --accent-spotify: #1DB954;
   --switch-gray: #929292;
-  --background-color: #F2F2F2;
+  --background-color: #f7f5ef;
   --text-color: #232323;
 }
 
@@ -85,7 +85,7 @@
   width: 26px;
   left: 4px;
   bottom: 4px;
-  background-color: #fff;
+  background-color: #f7f5ef;
   transition: 0.4s;
 }
 

@@ -1,6 +1,6 @@
 // THEME COLORS
 var primaryBlack='#232323';
-var primaryWhite='#F2F2F2';
+var primaryWhite='#f7f5ef';
 
 var textColor = primaryBlack;
 var switchStatus;
