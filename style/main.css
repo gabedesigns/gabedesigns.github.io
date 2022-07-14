@@ -1,6 +1,6 @@
 :root {
   --primary-black: #232323;
-  --primary-white: #F2F2F2;
+  --primary-white: #f7f5ef;
   --secondary-dark-gray: #4B4B4B;
   --secondary-light-gray: #C2C2C2;
   --accent-spotify: #1DB954;
@@ -281,10 +281,6 @@ input:checked + .slider:before {
   padding: 0.3rem;
 }
 
-.spotify-cta {
-  background-color: #1DB954;
-  color: #F2F2F2;
-}
 
 small {
   font-size: 8px;
@@ -595,7 +591,7 @@ nav ul .cta small {
   font-size: 2.6rem;
   font-family: "Assistant";
   background-color: #4B4B4B;
-  color: #F2F2F2;
+  color: #f7f5ef;
   padding: 1rem 2rem;
   margin: 1.5rem 0rem;
   border-radius: 1.1rem;
