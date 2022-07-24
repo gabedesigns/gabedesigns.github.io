@@ -398,7 +398,7 @@ nav ul {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 2.5rem;
+  gap: 2.0rem;
   position: relative;
   top: 40%;
   transform: translateY(-40%);
@@ -406,6 +406,7 @@ nav ul {
 nav ul li a {
   display: block;
   width: 100%;
+  /* font-size: 2.4rem; */
 }
 nav ul .cta a {
   background-color: #1DB954;
@@ -439,7 +440,7 @@ nav ul .cta small {
   font-weight: 400;
 }
 .intro-home p {
-  font-size: 1.5rem;
+  font-size: 1.1rem;
   text-align: center;
   margin: 0;
 }
