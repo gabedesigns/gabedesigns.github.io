@@ -1,6 +1,7 @@
+
 // THEME COLORS
 var primaryBlack='#232323';
-var primaryWhite='#f7f5ef';
+var primaryWhite='#F2F2F2';
 
 var textColor = primaryBlack;
 var switchStatus;
@@ -85,7 +86,6 @@ function changeColorLine(id) {
 function iconColorSwitch() {
     iconArray.forEach( function(iconName){
         var element = document.getElementById(iconName);
-        console.log(element);
         if (element != null) {
             var doc = element.getSVGDocument();
             if (doc != null) {
@@ -117,6 +117,18 @@ document.addEventListener("DOMContentLoaded", function() { // On DOM Load initia
 });
 
 $(function(){
+    // DEFAULT DARK MODE -- COMMENT SECTION (lines 121-128) IF YOU WANT DEFAULT LIGHT MODE
+    switchStatus = true;
+    $('#darkMode').prop('checked', true);
+    document.documentElement.style.setProperty('--background-color', primaryBlack);
+    document.documentElement.style.setProperty('--text-color', primaryWhite);
+    textColor = primaryWhite;
+    darkMode = true;
+    // CHANGE ICON COLORS
+    iconColorSwitch();
+    iconChevronSwitch();
+
+
     // INITIALIZE DARK MODE STATUS
     if (sessionStorage.darkMode) {
         switchStatus = sessionStorage.darkMode;
@@ -162,4 +174,3 @@ $(function(){
         sessionStorage.setItem('darkMode', darkMode);
     });
 });
-
