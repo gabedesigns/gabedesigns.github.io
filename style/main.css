@@ -706,6 +706,10 @@ nav ul .cta small {
   color: #1DB954;
 }
 
+.people-person {
+  color: #1DB954;
+}
+
 @media screen and (min-width: 768px) {
   .home {
     padding: 0 3rem;
