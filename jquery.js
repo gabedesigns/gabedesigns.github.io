@@ -17,7 +17,7 @@ let textArrayIndex = 0;
 let charIndex = 0;
 
 // SVG ICON LIST
-const iconArray = ["arrow-right-icon", "about-arrow", "work-arrow", "arrow-left-icon", "quote-icon"];
+const iconArray = ["arrow-right-icon", "about-arrow", "work-arrow", "gallery-arrow", "arrow-left-icon", "quote-icon"];
 
 // TYPING EFFECT: TYPE
 function type() {
