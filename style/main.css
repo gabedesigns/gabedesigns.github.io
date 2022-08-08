@@ -443,6 +443,11 @@ nav ul .cta small {
   margin: 0;
 }
 
+.intro-home .email {
+  font-size: 1rem;
+  margin: 0;
+}
+
 .home {
   margin-top: 5vh;
   display: flex;
@@ -1117,6 +1122,10 @@ nav ul .cta small {
   border: solid blanchedalmond;
   z-index: 1;
   border-width: 0 1.5em 2em 1.5em;
+}
+
+.e-color{
+  color: #1DB954;
 }
 
 @keyframes photo {
